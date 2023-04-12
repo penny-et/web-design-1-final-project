@@ -2,8 +2,86 @@
     max-width: 1280px;
 }
 
-html {
-    margin: 40px 60px;
+header {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#logo {
+    display:flex;
+    flex-direction: column;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+#services div {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 0.75rem;
+}
+
+#about {
+    background-color: white;
+    padding: 40px 65px;
+    color: #0E1215;
+}
+
+#services {
+    background-color: #fafafa;
+    padding: 40px 65px;
+    color: #0E1215;
+}
+
+#work {
+    background-color: white;
+    padding: 40px 65px;
+    color: #0E1215;
+}
+
+#quote {
+    background-color: #0E1215;
+    padding: 40px 65px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 a:link {
@@ -19,5 +97,5 @@ a:hover {
 }
 
 a:focus {
-    
+
 }
