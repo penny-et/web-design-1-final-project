@@ -1,59 +1,64 @@
 .wrapper {
     max-width: 1280px;
 }
-
 header {
+    background-color: black;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+header h2 {
     color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+    color:mediumblue;
+}
+
+main #love {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
-
 h1, h2, h3, h4 {
     font-weight: bold;
 }
-
 h1 {
     font-size: 3rem;
 }
-
 h2 {
     font-size: 2rem;
 }
-
-#logo {
-    display:flex;
-    flex-direction: column;
-}
-
-#services h2 {
-    text-align: center;
-}
-
-#services div {
-    display: flex;
-    flex-direction: column;
-}
-
 h3 {
     font-size: 1.5rem;
 }
-
 h4 {
     font-size: 1.25rem;
 }
-
 h5 {
     font-weight: normal;
     font-size: 1rem;
 }
-
 h6 {
     font-weight: normal;
     font-size: 0.75rem;
 }
-
 #about {
     background-color: white;
     padding: 40px 65px;
@@ -70,6 +75,7 @@ h6 {
     background-color: white;
     padding: 40px 65px;
     color: #0E1215;
+    text-align: center;
 }
 
 #quote {
@@ -82,20 +88,4 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-}
-
-a:link {
-
-}
-
-a:visited {
-
-}
-
-a:hover {
-
-}
-
-a:focus {
-
 }
