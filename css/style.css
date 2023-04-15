@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .wrapper {
     max-width: 1280px;
 }
@@ -19,8 +26,6 @@ li {
     padding-left: 1em;
     padding-right: 1em;
 }
-
-
 
 a:link {
     color: white;
@@ -46,7 +51,7 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 h2 {
     font-size: 2rem;
@@ -65,33 +70,117 @@ h6 {
     font-weight: normal;
     font-size: 0.75rem;
 }
+
+main img#love {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
 #about {
     background-color: white;
-    padding: 40px 65px;
+    padding: 65px 20px 0 40px;
     color: #0E1215;
+}
+div.about {
+    display: flex;
+}
+div.about div.bio img {
+    order: 2;
 }
 
 #services {
+    display:flex;
     background-color: #fafafa;
     padding: 40px 65px;
     color: #0E1215;
+}
+#services div.services div.header {
+    text-align: center;
+}
+section#services div.services div.boxes {
+    width: 33.33%;
 }
 
 #work {
     background-color: white;
     padding: 40px 65px;
     color: #0E1215;
+}
+#work .text {
     text-align: center;
+    padding: 0 175px;
+}
+#work .images {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 2fr;
+    grid-gap: none;
+}
+#work div.images figure.img-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#work div.images figure.img-2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#work div.images figure.img-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#work div.images figure.img-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#work div.images figure.img-5 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #quote {
     background-color: #0E1215;
     padding: 40px 65px;
+}
+#quote h2 {
     color: white;
+}
+#quote h5 > blockquote {
+    font-style: italic;
+    color: white;
+}
+#quote h5 > cite {
+    color: #fafafa;
+    font-style: normal;
+}
+#contact div.contact {
+    display: flex;
+}
+#contact div.contact div.images {
+    display: ;
+}
+#contact div.contact figure.insta a > img {
+    width: 30px;
+}
+#contact div.contact figure.face a > img {
+    width: 30px;
+}
+#contact div.contact figure.twitter a > img {
+    width: 30px;
 }
 
 footer {
     text-align: center;
     background-color: black;
     color: white;
+    line-height: 40px;
 }
