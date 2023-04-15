@@ -162,20 +162,38 @@ section#services div.services div.boxes {
     color: #fafafa;
     font-style: normal;
 }
-#contact div.contact {
+#contact {
+    text-align: center;
+}
+  
+#contact h2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 65px;
+    margin-bottom: -10px;
+}
+  
+#contact h5 {
+    padding-left: 350px;
+    padding-right: 350px;
+}
+  
+#contact .images {
     display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
 }
-#contact div.contact div.images {
-    display: ;
-}
-#contact div.contact figure.insta a > img {
+#contact .insta a > img {
     width: 30px;
+    margin: 10px;
 }
-#contact div.contact figure.face a > img {
+#contact .face a > img {
     width: 30px;
+    margin: 10px;
 }
-#contact div.contact figure.twitter a > img {
+#contact .twitter a > img {
     width: 30px;
+    margin: 10px;
 }
 
 footer {
