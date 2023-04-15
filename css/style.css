@@ -109,50 +109,17 @@ section#services div.services div.boxes {
 #work .text {
     text-align: center;
     padding: 0 175px;
-}
-#work .images {
-    display: grid;
-    grid-template-columns: 6fr;
-    grid-template-rows: 2fr;
-    grid-gap: none;
-}
-#work div.images figure.img-1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-#work div.images figure.img-2 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-#work div.images figure.img-3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-#work div.images figure.img-4 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-#work div.images figure.img-5 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    margin-bottom: 20px;
 }
 
 #quote {
     background-color: #0E1215;
-    padding: 40px 65px;
+    padding: 40px 65px 65px;
 }
 #quote h2 {
     color: white;
+    text-align: center;
+    margin-top: 40px;
 }
 #quote h5 > blockquote {
     font-style: italic;
@@ -162,22 +129,31 @@ section#services div.services div.boxes {
     color: #fafafa;
     font-style: normal;
 }
+#quote .quote {
+    display: flex;
+}
+#quote .quote .quote-1 {
+    text-align: center;
+    width: 50%;
+}
+#quote .quote .quote-2 {
+    text-align: center;
+    width: 50%;
+}
+
 #contact {
     text-align: center;
-}
-  
+} 
 #contact h2 {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 65px;
     margin-bottom: -10px;
 }
-  
 #contact h5 {
     padding-left: 350px;
     padding-right: 350px;
 }
-  
 #contact .images {
     display: flex;
     justify-content: center;
