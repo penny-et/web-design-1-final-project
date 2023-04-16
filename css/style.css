@@ -14,17 +14,28 @@ header {
     padding-left: 65px;
     padding-right: 65px;
     flex-direction: row;
-    align-items: center;
 }
-header h2 {
-    color: white;
-}
-ul {
+.head {
     display: flex;
 }
-li {
-    padding-left: 1em;
-    padding-right: 1em;
+.head .name {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    padding-right: 170px;
+}
+.head .list {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+}
+.head .list .about, 
+.head .list .service, 
+.head .list .work, 
+.head .list .contact {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
 }
 
 a:link {
@@ -117,7 +128,6 @@ div.about div.bio img {
 #services .boxes .logo > h5 {
     margin: 15px auto;
 }
-
 #services .boxes .design {
     width: 350px;
     height: 350px;
@@ -132,7 +142,6 @@ div.about div.bio img {
 #services .boxes .design > h5 {
     margin: 15px auto;
 }
-
 #services .boxes .brand {
     width: 350px;
     height: 350px;
