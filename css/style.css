@@ -89,16 +89,90 @@ div.about div.bio img {
 }
 
 #services {
-    display:flex;
     background-color: #fafafa;
-    padding: 40px 65px;
+    padding: 60px 65px 125px;
     color: #0E1215;
 }
-#services div.services div.header {
+#services h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#services .boxes {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+  
+}
+#services .boxes .logo {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 2px;
+}
+#services .boxes .logo > h3,
+#services .boxes .logo > h5 {
+    margin: 15px auto;
+}
+
+#services .boxes .design {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 2px;
+}
+#services .boxes .design > h3,
+#services .boxes .design > h5 {
+    margin: 15px auto;
+}
+
+#services .boxes .brand {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 2px;
+}
+#services .boxes .brand > h3,
+#services .boxes .brand > h5 {
+    margin: 15px auto;
+}
+
+#services .boxes .logo .button{
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
     text-align: center;
 }
-section#services div.services div.boxes {
-    width: 33.33%;
+#services .boxes .design .button {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}
+#services .boxes .brand .button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
 }
 
 #work {
